@@ -1,0 +1,138 @@
+/*
+ Theme Name:     Comobike Theme
+ Theme URI:      http://hostify.com.au
+ Description:    Comobike Child Theme
+ Author:         Dan @ Hostify	
+ Author URI:     http://hostify.com.au
+ Template:       anthe
+ Version:        1.0
+*/
+ 
+@import url("../anthe/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+/*
+-------------
+login
+-------------
+*/
+#login h1 a {
+	background-image: url('../../uploads/2013/12/Comobike-logo.png') !important;
+	background-color: #000000;
+}
+
+/*
+-------------
+Header
+-------------
+*/
+
+.head.fix {
+	height: 120px;
+	background: transparent;
+}
+
+.head.top.fix {
+	background: #6c6662;
+	opacity: 0.8;
+}
+
+.head .logo {
+	position: relative;
+	top: 20px;
+	left: 0;
+}
+
+.head a {
+	color: #fff;
+}
+
+.section .bg-container h2 {
+	padding-top: 40px;
+}
+
+body.admin-bar .head.fix {
+	top: 20px;
+}
+
+.head.fix {
+	height: 180px;
+}
+
+.head ol.menu li.current-menu-item {
+	border-color: #fff;
+}
+	
+.head .logo img {
+	max-height: 120px;
+}
+
+.section .title {
+	padding-top: 140px;
+}
+
+.section h4 {
+	font-weight: bold;
+}
+
+.section {
+	padding-top: 0;
+}
+
+
+/*
+-------------
+Services
+-------------
+*/
+
+.items .span span:first-child{ display:none }
+
+
+/*
+-------------
+Media queries
+-------------
+*/
+
+
+@media screen and (max-width: 800px) {
+ol.menu {
+	text-align: inherit;
+	padding-top: 30px;
+}
+
+.head .logo img {
+	max-height: 100px;
+}
+
+.head.fix .logo {
+	position: relative;
+	top: 20px;
+	left: 0;
+}
+
+#menu-list-mobile {
+	position: relative;
+	top: 10px;
+	float: none;
+	text-align: center;
+}
+.head.hardfix #menu-list-mobile, .head.fix #menu-list-mobile {
+	display: inline;
+}
+
+.slides.full li h1 {
+	top: 45%;
+}
+}
+
+@media screen and (min-width: 580px) {
+.head.hardfix #menu-list-mobile, .head.fix #menu-list-mobile {
+	display: none;
+}
+
+}

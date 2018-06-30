@@ -1,0 +1,74 @@
+/* auto-generated file / all manual changes will be lost */
+
+/* custom fonts import */
+
+@import url('../../../../fonts.googleapis.com/css-family=PT+Sans-400,700,400italic,700italic.css');
+
+/* custom fonts init */
+
+body { font-family: 'PT Sans', 'Georgia', serif }
+
+/* custom colors */
+
+html, body { color: #696665 }
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+blockquote,
+.map-container.bright h2,
+.head a { color: #373432 }
+
+.section .map-container,
+.section .bg-container,
+.section h2:after,
+.section .bg-container a:hover,
+.bg-container .fieldset input[type="submit"]:hover,
+.slides.full { background-color: #373432 }
+
+#map.bg { background: #373432 !important }
+
+.head ol.menu li ul li:hover,
+.head ol.menu li.active,
+.head ol.menu li.current-menu-item { border-color: #373432 }
+
+#contact input.err,
+#contact textarea.err {
+  color: #9b1a19;
+}
+
+.head ol.menu li ul li,
+.media-container.border:before,
+ol.items>li.active,
+.section h4.bottom-pad,
+.section h4.pad-big,
+.section h4.pad,
+hr,
+.fieldset input,
+.fieldset textarea,
+.widget.widget_search input#s {
+  border-color: #cdcccb;
+}
+
+#contact .name:before,
+#contact .mail:before,
+#contact .msg:before,
+#contact .name:after,
+#contact .mail:after,
+#contact .msg:after {
+  background-color: #cdcccb;
+}
+
+input,
+textarea,
+a { color: #1c1a19 }
+
+.fieldset input[type="submit"]:hover,
+a:hover { background-color: #ffeedd }
+
+.text-span.titles .next { border-left-color: #cdcccb; }
+.text-span.titles .next:active { border-left-color: #373432 }
+
+/* custom css */
+
